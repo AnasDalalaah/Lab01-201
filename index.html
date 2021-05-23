@@ -5,6 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAB01-201</title>
+    <style>
+    body  {
+        background-image: url("https://cutewallpaper.org/21/website-background-images-hd/Autodesk-Wallpaper-Website-Background-Hd-Wallpapers-.jpg");
+        
+      }
+
+
+      header h1{
+        text-align: center;
+        font-style: normal;}
+        header h2 {
+            text-align: center;
+            font-style: oblique;
+
+        }
+
+        #social {
+
+        float: right;
+        height: 80%;
+                }
+   
+
+         #Search{
+    text-align: left;
+    height: 80%;
+               }
+        #first{
+               height: 200px;
+          text-align: center;
+          font-size:30px;
+
+          margin: 25px 0 20px 10%;
+}
+
+#second{
+  color: 
+  rgb(0, 0, 0);
+   margin-bottom: 300px;
+}
+
+.image-container{
+  text-align: center;
+  display: inline-block;
+  height: 300px;
+  width:25%;
+  margin-left:70px;
+}
+
+footer{
+
+height: 85px;
+color: rgb(0, 0, 0);
+ text-align: center;
+}
+
+      </style>
+
 </head>
 <body>
     <header>
@@ -17,40 +75,142 @@
         We found for more knowledge and learning
     </h2>
     
-    <div class="Searc">
+    <div id="Search">
         <input type="text" placeholder="Search..">
-        <a href="https://en.wikipedia.org/wiki/Great_books">Home</a>
-        <a href="https://bookriot.com/bill-gates-book-recommendations/">Our Stoy</a>
+        <a  href="https://en.wikipedia.org/wiki/Great_books">Home</a>
+        <a href="https://bookriot.com/bill-gates-book-recommendations/">Our Story</a>
         <a href="https://en.wikipedia.org/wiki/American_Public_University_System#History">Our Branches</a>
     </div>
 
 
-
-    <nav>
-        <ul>
-            <il><a href="https://en.wikipedia.org/wiki/Great_books">Home</a></il>
-            <il><a href="https://bookriot.com/bill-gates-book-recommendations/">Our Stoy</a></il>
-            <il><a href="https://en.wikipedia.org/wiki/American_Public_University_System#History"></a> Our Branches</il>
-        </ul>
-    </nav>
-
-
     <section id="social">
 
-        <a href="www.facebook.com"><img src="https://www.clipartmax.com/png/middle/98-983644_icon-facebook-facebook-icon-png-circle.png" alt="Facebook"width=50px;></a> 
+        <a href="https://www.facebook.com/"><img src="https://www.clipartmax.com/png/middle/98-983644_icon-facebook-facebook-icon-png-circle.png" alt="Facebook"width=50px;></a> 
 
-        <a href="www.twitter.com"><img src="https://www.clipartmax.com/png/middle/5-57134_the-twitter-logo-transparent.png" alt="twitter"width=100px;></a>
+        <a href="https://twitter.com/?lang=en"><img src="https://www.clipartmax.com/png/middle/5-57134_the-twitter-logo-transparent.png" alt="twitter"width=100px;></a>
 
-    <a href="www.linkedin.com"><img src="https://www.clipartmax.com/png/middle/30-308556_joshua-fink-linkedin-grey-linkedin-logo-png.png" alt="linkedin" width=50px;></a>
+    <a href="https://www.linkedin.com/"><img src="https://www.clipartmax.com/png/middle/30-308556_joshua-fink-linkedin-grey-linkedin-logo-png.png" alt="linkedin" width=30px;></a>
   </section>
 
     </header>
 
     <main>
+        <section id="first">
+
+			<h3>Welcome to my own world</h3>
+		
+		</section>
+
+		<section id="second">
+			<div class="image-container">
+				<h3>Climate Change</h3>
+				<img src="https://images1.penguinrandomhouse.com/cover/9780385546133" alt="Climate change" width="200px">
+      </div>
+      <div  class="image-container">
+       <h3>Data & Statistics</h3> 
+       <img src="https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9781/4736/9781473637467.jpg" alt="Data and Statistics" width="200px">
+       </div>
+       <div  class="image-container">
+       <h3>Cryptocurrencies & Blockchains</h3>
+       <img src="https://prodimage.images-bn.com/pimages/9781633538009_p0_v3_s550x406.jpg"width="200px">
+      </div>
+     
+
+     </section>
 
     </main>
-    <footer>
 
+    <footer>
+<p>
+      	<a href="https://www.google.jo/maps/place/Washington,+DC,+USA/@38.8935128,-77.1546635,11z/">
+          Our Location</a>
+    </p>
+    
+    <p>
+      Copy Rights &copy;GBW 2021
+    </p>
     </footer>
+    <script>
+
+       let username="Ich bin Anas";
+       alert(username);
+
+    const GA='Guten Abend'
+
+alert(GA);
+
+// Using  the same cosebt Samer code , helped witi Samer
+let yourName=prompt('what is your name? ');
+        console.log(yourName);
+
+        let age=prompt('what is your age?');
+
+        console.log(age);
+
+        alert('Your name and age are written this way in the German language, Mein Name ist ' + yourName+ '  Ich bin '+ age +' Jahre alt');
+//
+
+       
+function favbook(){
+
+var book = prompt('What do you want to read fields of environment or economist?');
+
+while (book !== 'economist' && book !== 'environment') {
+  book = prompt('Please check the major entry next time')
+
+}
+var result='';
+
+if ( book == 'economist') {
+  result='<img src="https://miro.medium.com/max/2800/0*0ZZFyMZEZ5XjY6Y_.jpg" alt="economist" width="300px">';
+} else if (book === 'environment') {result='<img src="https://climate.nasa.gov/system/content_pages/main_images/1320_effects-image.jpg" alt="Climate change" width="300px">'
+ }
+
+
+return result;
+}
+document.write(favbook())
+
+let socialmediaplatform,stars
+ socialmediaplatform = prompt('What is your favorite social media platform (Linkedin,Twitter)?');
+
+
+if(socialmediaplatform==='Linkedin'){
+  document.write('<a href="https://www.linkedin.com/">Linkedin</a>');
+}
+
+else if(socialmediaplatform==='Twitter')
+
+{
+  document.write('<a href="https://twitter.com/?lang=en">Twitter</a>');
+}
+else{
+  document.write('<h2> Please check the major entry next time</h2>');
+}
+
+var rating=function(){
+
+
+var stars = prompt('How many starts do you rate our website?');
+
+if (stars > 5) { stars = 5;
+}
+var starResults='';
+
+for (var i = 0; i < stars; i++) {
+
+   starResults+= '<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDvvIxXy4-x8TSIlWn-znOZirHvrsErjpxQw&usqp=CAU" width="30px">';
+}
+
+return starResults;
+}
+
+document.write(rating())
+alert('We appreciate your opinion')
+
+
+      
+
+    </script>
 </body>
 </html>
